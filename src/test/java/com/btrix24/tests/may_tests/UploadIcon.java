@@ -41,15 +41,38 @@ public class UploadIcon {
         WebElement loginIcon = driver.findElement(By.xpath("//input[@type='submit']"));
         loginIcon.click();
 
-        Actions actions = new Actions(driver);
-
         WebElement moreIcon = driver.findElement(By.id("feed-add-post-form-link-more"));
         moreIcon.click();
 
         WebElement fileIcon = driver.findElement(By.xpath("//span[@class='menu-popup-item-text'][1]"));
         fileIcon.click();
 
+        WebElement documentUpload = driver.findElement(By.xpath("//span[@data-bx-doc-handler='gdrive']/span[@class='wd-fa-add-file-light-title-text'][1]"));
+        documentUpload.click();
 
-        System.out.println("login successfully");
+        WebElement boxElement = driver.findElement(By.xpath("//a/span[@title='Box']"));
+        boxElement.click();
+        System.out.println(boxElement.getText() + "clicked");
+
+        WebElement dropBox = driver.findElement(By.xpath("//a/span[@title='Dropbox']"));
+        dropBox.click();
+        System.out.println(dropBox.getText() + "clicked");
+
+        WebElement googleDrive = driver.findElement(By.xpath("//a/span[@title='Google Drive']"));
+        googleDrive.click();
+        System.out.println(googleDrive.getText() + "clicked");
+
+        WebElement office365 = driver.findElement(By.xpath("//a/span[@title='Office 365']"));
+        office365.click();
+        System.out.println(office365.getText() + "clicked");
+
+        WebElement oneDrive = driver.findElement(By.xpath("//a/span[@title='OneDrive']"));
+        oneDrive.click();
+        System.out.println(oneDrive.getText() + "clicked");
+
+        WebElement yandex = driver.findElement(By.xpath("//a/span[@title='Yandex.Disk']"));
+        yandex.click();
+        System.out.println(yandex.getText() + "clicked");
+
     }
 }

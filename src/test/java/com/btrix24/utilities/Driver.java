@@ -19,7 +19,7 @@ public class Driver {
     private static WebDriver driver;
 
     public static WebDriver getDriver() {
-        // check if the driver has value, if not asign a value
+        // check if the driver has value, if not assign a value
         if (driver == null) {
             // get the driver type from properties file
             String browser = ConfigurationReader.getProperty("browser");

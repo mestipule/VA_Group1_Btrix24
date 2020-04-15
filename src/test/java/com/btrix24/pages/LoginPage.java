@@ -30,4 +30,11 @@ public class LoginPage {
         this.password.sendKeys(password);
         login.click();
     }
+
+    @FindBy(xpath = "//*[@id='feed-add-post-form-tab-message']/span")
+    public WebElement message;
+
+    @FindBy(xpath = "//*[@id='feed-add-post-destination-item']/span/span[1]")
+    public WebElement allEmployees;
+
 }

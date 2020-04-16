@@ -1,11 +1,16 @@
 package com.btrix24.tests.may_tests;
 
+import com.btrix24.Base.TestBase;
+import com.btrix24.pages.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -13,40 +18,42 @@ import org.testng.annotations.Test;
 import javax.swing.*;
 import java.util.concurrent.TimeUnit;
 
-public class UploadIcon {
-    WebDriver driver;
-
+public class UploadIcon extends TestBase {
+    LoginPage loginPage;
+    WebDriverWait wait;
+//
     @BeforeMethod
     public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://login2.nextbasecrm.com/");
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+//        WebDriverManager.chromedriver().setup();
+//        driver = new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.get("https://login2.nextbasecrm.com/");
+        wait = new WebDriverWait(driver, 10);
+
     }
-    @AfterMethod
-    public void tearDown() throws InterruptedException{
-        Thread.sleep(3000);
-        driver.quit();
-    }
+
     @Test
     public void uploadFileIconTest() {
 
-        WebElement username = driver.findElement(By.xpath("//input[@class='login-inp']"));
-        username.sendKeys("helpdesk1@cybertekschool.com");
+        test = report.createTest("Btrix24 Upload File Icon Functionality");
+        test.info("Opening Browser");
+        loginPage = new LoginPage();
+        test.info("Username input");
+        loginPage.username.sendKeys("helpdesk1@cybertekschool.com");
+        test.info("Password input");
+        loginPage.password.sendKeys("UserUser");
+        test.info("Logging in");
+        loginPage.login.click();
 
-        WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
-        password.sendKeys("UserUser");
-
-        WebElement loginIcon = driver.findElement(By.xpath("//input[@type='submit']"));
-        loginIcon.click();
-
+        test.info("Finding More Button");
         WebElement moreIcon = driver.findElement(By.id("feed-add-post-form-link-more"));
+        wait.until(ExpectedConditions.elementToBeClickable(moreIcon));
         moreIcon.click();
-
+        test.info("File option found");
         WebElement fileIcon = driver.findElement(By.xpath("//span[@class='menu-popup-item-text'][1]"));
         fileIcon.click();
 
+        test.info("Checking Document Upload Functionality");
         WebElement documentUpload = driver.findElement(By.xpath("//span[@data-bx-doc-handler='gdrive']/span[@class='wd-fa-add-file-light-title-text'][1]"));
         documentUpload.click();
 

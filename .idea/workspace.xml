@@ -35,7 +35,42 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
-  <component name="RunManager" selected="TestNG.SearchFiltersTests.testAsHelpDesk1">
+  <component name="RunManager" selected="TestNG.UploadIcon">
+    <configuration name="SearchFiltersTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VA_Group1_Btrix24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.tests_MSH_US_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.tests_MSH_US_09" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.tests_MSH_US_09.SearchFiltersTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFiltersTests.filtersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VA_Group1_Btrix24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.tests_MSH_US_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.tests_MSH_US_09" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.tests_MSH_US_09.SearchFiltersTests" />
+      <option name="METHOD_NAME" value="filtersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchFiltersTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <extension name="coverage">
@@ -83,23 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadIcon.uploadFileIconTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VisualEditor.VisualEditor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.may_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.may_tests.UploadIcon" />
-      <option name="METHOD_NAME" value="uploadFileIconTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadIcon.uploadFileIconTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VA_Group1_Btrix24" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.may_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.may_tests.UploadIcon" />
-      <option name="METHOD_NAME" value="uploadFileIconTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.seymanur_tests_AC_07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.seymanur_tests_AC_07" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.seymanur_tests_AC_07.VisualEditor" />
+      <option name="METHOD_NAME" value="VisualEditor" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,10 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchFiltersTests.test" />
         <item itemvalue="TestNG.UploadIcon" />
-        <item itemvalue="TestNG.UploadIcon.uploadFileIconTest (4)" />
-        <item itemvalue="TestNG.UploadIcon.uploadFileIconTest (3)" />
+        <item itemvalue="TestNG.VisualEditor.VisualEditor" />
+        <item itemvalue="TestNG.SearchFiltersTests.filtersTest" />
+        <item itemvalue="TestNG.SearchFiltersTests" />
+        <item itemvalue="TestNG.SearchFiltersTests.test" />
       </list>
     </recent_temporary>
   </component>

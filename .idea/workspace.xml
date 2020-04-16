@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7f1afd-8b38-484d-aa16-0f3cd96e512a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/mestipule/VA_Group1_Btrix24 into avaliyev&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUsersTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUserEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/Base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/Base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUsersTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,62 +35,160 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.UploadIcon">
-    <configuration name="UploadIcon" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AddUserEmail">
+    <configuration name="AddUserEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.may_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.may_tests.UploadIcon" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadIcon.uploadFileIconTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserEmail.filtersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.may_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.may_tests.UploadIcon" />
-      <option name="METHOD_NAME" value="uploadFileIconTest" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
+      <option name="METHOD_NAME" value="filtersTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadIcon.uploadFileIconTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserEmail.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.may_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.may_tests.UploadIcon" />
-      <option name="METHOD_NAME" value="uploadFileIconTest" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadIcon.uploadFileIconTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserEmail.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.may_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.may_tests.UploadIcon" />
-      <option name="METHOD_NAME" value="uploadFileIconTest" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadIcon.uploadFileIconTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VisualEditor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.may_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.may_tests.UploadIcon" />
-      <option name="METHOD_NAME" value="uploadFileIconTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.seymanur_tests_AC_07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.seymanur_tests_AC_07" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.seymanur_tests_AC_07.VisualEditor" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -99,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UploadIcon" />
-        <item itemvalue="TestNG.UploadIcon.uploadFileIconTest (4)" />
-        <item itemvalue="TestNG.UploadIcon.uploadFileIconTest (3)" />
-        <item itemvalue="TestNG.UploadIcon.uploadFileIconTest (2)" />
-        <item itemvalue="TestNG.UploadIcon.uploadFileIconTest (1)" />
+        <item itemvalue="TestNG.AddUserEmail" />
+        <item itemvalue="TestNG.AddUserEmail.test2" />
+        <item itemvalue="TestNG.AddUserEmail.test1" />
+        <item itemvalue="TestNG.AddUserEmail.filtersTest" />
+        <item itemvalue="TestNG.VisualEditor" />
       </list>
     </recent_temporary>
   </component>
@@ -121,11 +219,59 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="51" key="#Project_Structure" timestamp="1586652546061">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="453" y="0" width="643" height="824" key="#&lt;template&gt;_of_TestNG" timestamp="1587056803205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="453" y="0" width="643" height="824" key="#&lt;template&gt;_of_TestNG/0.0.1536.824@0.0.1536.824" timestamp="1587056803205" />
+    <state x="447" y="12" key="#AddUsersTests" timestamp="1587057787608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#AddUsersTests.filtersTest" timestamp="1587061408943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#AddUsersTests.filtersTest/0.0.1536.824@0.0.1536.824" timestamp="1587061408943" />
+    <state x="447" y="0" width="655" height="824" key="#AddUsersTests.test1" timestamp="1587069961274">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#AddUsersTests.test1/0.0.1536.824@0.0.1536.824" timestamp="1587069961274" />
+    <state x="447" y="0" width="655" height="824" key="#AddUsersTests.test2" timestamp="1587070010857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#AddUsersTests.test2/0.0.1536.824@0.0.1536.824" timestamp="1587070010857" />
+    <state x="447" y="12" key="#AddUsersTests/0.0.1536.824@0.0.1536.824" timestamp="1587057787608" />
+    <state x="654" y="275" key="#Notifications" timestamp="1587056193238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1587056193238" />
+    <state x="361" y="0" key="#Project_Structure" timestamp="1587056232348">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="51" key="#Project_Structure/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586652546061" />
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586564247461" />
+    <state x="361" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587056232348" />
+    <state x="447" y="12" key="#RecordVideoTest" timestamp="1587057241224">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#RecordVideoTest.filtersTest" timestamp="1587057270616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#RecordVideoTest.filtersTest/0.0.1536.824@0.0.1536.824" timestamp="1587057270616" />
+    <state x="447" y="12" key="#RecordVideoTest/0.0.1536.824@0.0.1536.824" timestamp="1587057241224" />
+    <state x="447" y="12" key="#SearchFiltersTests" timestamp="1587057057007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#SearchFiltersTests.filtersTest" timestamp="1587057258011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="0" width="655" height="824" key="#SearchFiltersTests.filtersTest/0.0.1536.824@0.0.1536.824" timestamp="1587057258011" />
+    <state x="447" y="12" key="#SearchFiltersTests/0.0.1536.824@0.0.1536.824" timestamp="1587057057007" />
+    <state x="456" y="12" key="#UploadIcon" timestamp="1587056317511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="456" y="12" key="#UploadIcon/0.0.1536.824@0.0.1536.824" timestamp="1587056317511" />
+    <state x="456" y="12" key="#VisualEditor" timestamp="1587056830534">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="456" y="12" key="#VisualEditor/0.0.1536.824@0.0.1536.824" timestamp="1587056830534" />
     <state x="611" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586699258284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -134,29 +280,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586562961448" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1586981213999">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586981213999" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1586981213999">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586981213999" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1586981213999">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586981213999" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1586981213999">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586981213999" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1586981212974">
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1587056760222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586981212974" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587056760222" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1586613245292">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586613245292" />
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587056589917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587056589917" />
   </component>
 </project>

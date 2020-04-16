@@ -32,10 +32,9 @@ public class RecordVideoTest extends TestBase {
 
         String actualMessage = errorMessage.getText();
         String expectedMessage = "Cannot access your camera and microphone.";
-
+        // Verify the error message...
         assertEquals(actualMessage, expectedMessage);
         System.out.println("expectedMessage = " + expectedMessage);
         System.out.println("actualMessage = " + actualMessage);
-
     }
 }

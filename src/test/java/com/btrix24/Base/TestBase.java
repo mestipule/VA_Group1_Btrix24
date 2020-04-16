@@ -10,7 +10,9 @@ import com.btrix24.utilities.Driver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import org.testng.ITestResult;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -23,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     protected WebDriver driver;
     protected LoginPage loginPage;
+    protected WebDriverWait wait;
 
     protected ExtentReports report;
     private ExtentHtmlReporter htmlReporter;

@@ -2,7 +2,6 @@ package com.btrix24.tests.test_MSH_AC_9;
 
 import com.btrix24.Base.TestBase;
 import com.btrix24.utilities.ConfigurationReader;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;

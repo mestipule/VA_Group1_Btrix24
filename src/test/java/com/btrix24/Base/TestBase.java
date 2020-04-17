@@ -8,6 +8,7 @@ import com.btrix24.utilities.BrowserUtils;
 import com.btrix24.utilities.ConfigurationReader;
 import com.btrix24.utilities.Driver;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -20,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     protected WebDriver driver;
     protected LoginPage loginPage;
+    protected WebDriverWait wait;
 
     protected ExtentReports report;
     private ExtentHtmlReporter htmlReporter;
@@ -47,7 +49,7 @@ public class TestBase {
         driver.get(ConfigurationReader.getProperty("url"));
         loginPage = new LoginPage();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
     }
 

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7e7f1afd-8b38-484d-aa16-0f3cd96e512a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/mestipule/VA_Group1_Btrix24 into avaliyev&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/Base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/Base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/charos_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/charos_tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

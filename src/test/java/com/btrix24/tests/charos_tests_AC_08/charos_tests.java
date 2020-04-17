@@ -1,4 +1,4 @@
-package com.btrix24.tests;
+package com.btrix24.tests.charos_tests_AC_08;
 
 import com.btrix24.Base.TestBase;
 import com.btrix24.pages.LoginPage;
@@ -12,7 +12,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class charos_tests  extends TestBase {
-   // WebDriver driver;
+
+    /*
+   User should be able to click on the Topic icon
+  to see the Message Topic text box displays
+  on top of the message box.
+     */
+
     LoginPage loginPage;
     WebDriverWait wait;
 

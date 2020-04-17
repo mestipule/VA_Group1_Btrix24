@@ -48,7 +48,7 @@ public class AddUserEmail extends TestBase {
             l3.get(r.nextInt(2)).click();
         }
 
-        // Verify n the "To" box displays with user e-mails.
+        // Verify on the "To" box displays with user e-mails.
         WebElement l2 = driver.findElement(By.xpath("//*[@id='feed-add-post-destination-item']/span/span[contains(text(),'.com')]"));
         Assert.assertTrue(l2.isDisplayed());
     }

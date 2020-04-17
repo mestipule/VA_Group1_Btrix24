@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7f1afd-8b38-484d-aa16-0f3cd96e512a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/mestipule/VA_Group1_Btrix24 into avaliyev&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUserEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUsersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUserEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUserEmail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.AddUserEmail">
+  <component name="RunManager" selected="TestNG.AddUserEmail.test2">
     <configuration name="AddUserEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
@@ -197,8 +195,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddUserEmail" />
         <item itemvalue="TestNG.AddUserEmail.test2" />
+        <item itemvalue="TestNG.AddUserEmail" />
         <item itemvalue="TestNG.AddUserEmail.test1" />
         <item itemvalue="TestNG.AddUserEmail.filtersTest" />
         <item itemvalue="TestNG.VisualEditor" />
@@ -276,26 +274,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="611" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1586699258284" />
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1587081916594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1587081916594" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1586562961448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586562961448" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1587073620047">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1587145934376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1587073620047">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1587081847820" />
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587145934376" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1587145934376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1587073620047">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1587081847820" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587145934376" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1587145934376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1587073620047">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1587081847820" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587145934376" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1587145934376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1587081847820" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587145934376" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1587056760222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -304,9 +310,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586613245292" />
-    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587056589917">
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587081891450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1587081891450" />
     <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587056589917" />
   </component>
 </project>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7f1afd-8b38-484d-aa16-0f3cd96e512a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/mestipule/VA_Group1_Btrix24 into avaliyev&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUserEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/akif_tests/AddUsersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/Base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/Base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/btrix24/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1aN4hz3dXm06Xz4yZXgDGGIT5Lc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,7 +48,6 @@
     <configuration name="AddUserEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
@@ -68,7 +74,6 @@
     <configuration name="AddUserEmail.filtersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
@@ -96,7 +101,6 @@
     <configuration name="AddUserEmail.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
@@ -124,7 +128,6 @@
     <configuration name="AddUserEmail.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
@@ -152,7 +155,6 @@
     <configuration name="VisualEditor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.seymanur_tests_AC_07.*" />
@@ -178,7 +180,6 @@
     </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="GROUP_NAME" value="" />
@@ -204,6 +205,18 @@
         <item itemvalue="TestNG.VisualEditor" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -272,9 +285,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="456" y="12" key="#VisualEditor/0.0.1536.824@0.0.1536.824" timestamp="1587056830534" />
-    <state x="611" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586699258284">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="573" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587144776080">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="573" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1587144776080" />
     <state x="611" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1586699258284" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1586562961448">
       <screen x="0" y="0" width="1536" height="824" />
@@ -304,6 +318,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586613245292" />
+    <state x="723" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1587145759880">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="723" y="270" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587145759880" />
+    <state x="723" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1587144715013" />
     <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587056589917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

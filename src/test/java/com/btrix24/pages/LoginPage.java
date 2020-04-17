@@ -1,9 +1,12 @@
 package com.btrix24.pages;
 
 import com.btrix24.utilities.Driver;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+
 
 public class LoginPage {
     public LoginPage(){

@@ -4,8 +4,6 @@ import com.btrix24.Base.TestBase;
 import com.btrix24.utilities.ConfigurationReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -23,20 +21,22 @@ public class SearchFiltersTests extends TestBase {
 
     @Test
     public void filtersTest() {
+        test = report.createTest("Btrrix-24 -> Default Searches Test");
+        test.info("Opening Btrix and logging in...");
         loginPage.login(username, password);
-        // Testing search Filter "Work"...
+        test.info("Testing search Filter \"Work\"");
         assertEquals(filterSearch(workFilter), "Work");
         clearFilter();
-        // Testing search Filter "Favorites"...
+        test.info("Testing search Filter \"Favorites\"");
         assertEquals(filterSearch(favoritesFilter), "Favorites");
         clearFilter();
-        // Testing search Filter "My Activity"...
+        test.info("Testing search Filter \"My Activity\"");
         assertEquals(filterSearch(myActivityFilter), "My Activity");
         clearFilter();
-        // Testing search Filter "Announcements"...
+        test.info("Testing search Filter \"Announcements\"");
         assertEquals(filterSearch(announcementsFilter), "Announcements");
         clearFilter();
-        // Testing search Filter "Workflows"...
+        test.info("Testing search Filter \"Workflows\"");
         assertEquals(filterSearch(workflowsFilter), "Workflows");
         clearFilter();
 
@@ -44,7 +44,7 @@ public class SearchFiltersTests extends TestBase {
     }
 
     public String filterSearch(String filterName) {
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         // Click search box...
         WebElement searchBox = driver.findElement(By.xpath("//input[@id='LIVEFEED_search']"));
         searchBox.click();

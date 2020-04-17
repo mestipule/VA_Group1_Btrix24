@@ -2,21 +2,12 @@ package com.btrix24.tests.may_tests;
 
 import com.btrix24.Base.TestBase;
 import com.btrix24.pages.LoginPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import javax.swing.*;
-import java.util.concurrent.TimeUnit;
 
 public class UploadIcon extends TestBase {
     LoginPage loginPage;

@@ -7,15 +7,12 @@ import com.btrix24.pages.LoginPage;
 import com.btrix24.utilities.BrowserUtils;
 import com.btrix24.utilities.ConfigurationReader;
 import com.btrix24.utilities.Driver;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -50,7 +47,7 @@ public class TestBase {
         driver.get(ConfigurationReader.getProperty("url"));
         loginPage = new LoginPage();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 
     }
 

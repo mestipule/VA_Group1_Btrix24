@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7f1afd-8b38-484d-aa16-0f3cd96e512a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/mestipule/VA_Group1_Btrix24 into avaliyev&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/Ozzy_Test/Bitrix24UploadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/btrix24/tests/Ozzy_Test/Bitrix24xDownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestFILE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

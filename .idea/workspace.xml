@@ -34,11 +34,10 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="TestNG.TaskTabTest">
-    <configuration name="TaskTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SearchFiltersTests.filtersTest">
+    <configuration name="AddUserEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
@@ -47,7 +46,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.TaskTabTest" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -62,10 +61,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTabTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserEmail.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
@@ -74,7 +72,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.TaskTabTest" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
       <option name="METHOD_NAME" value="test1" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -90,10 +88,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTabTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserEmail.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
@@ -102,7 +99,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.TaskTabTest" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
       <option name="METHOD_NAME" value="test2" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -118,19 +115,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisualEditor" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RecordVideoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
+      <shortenClasspath name="NONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.btrix24.tests.seymanur_tests_AC_07.*" />
+          <option name="PATTERN" value="com.btrix24.tests.test_MSH_AC_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.seymanur_tests_AC_07" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.seymanur_tests_AC_07.VisualEditor" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.test_MSH_AC_9" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.test_MSH_AC_9.RecordVideoTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -145,20 +141,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisualEditor.VisualEditor" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchFiltersTests.filtersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <shortenClasspath name="MANIFEST" />
-      <useClassPathOnly />
+      <shortenClasspath name="NONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.btrix24.tests.seymanur_tests_AC_07.*" />
+          <option name="PATTERN" value="com.btrix24.tests.tests_MSH_US_09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.seymanur_tests_AC_07" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.seymanur_tests_AC_07.VisualEditor" />
-      <option name="METHOD_NAME" value="VisualEditor" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.tests_MSH_US_09" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.tests_MSH_US_09.SearchFiltersTests" />
+      <option name="METHOD_NAME" value="filtersTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -193,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TaskTabTest" />
-        <item itemvalue="TestNG.TaskTabTest.test2" />
-        <item itemvalue="TestNG.VisualEditor" />
-        <item itemvalue="TestNG.VisualEditor.VisualEditor" />
-        <item itemvalue="TestNG.TaskTabTest.test1" />
+        <item itemvalue="TestNG.SearchFiltersTests.filtersTest" />
+        <item itemvalue="TestNG.RecordVideoTest" />
+        <item itemvalue="TestNG.AddUserEmail" />
+        <item itemvalue="TestNG.AddUserEmail.test2" />
+        <item itemvalue="TestNG.AddUserEmail.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -260,34 +255,14 @@
     </state>
     <state x="447" y="0" width="655" height="824" key="#SearchFiltersTests.filtersTest/0.0.1536.824@0.0.1536.824" timestamp="1587057258011" />
     <state x="447" y="12" key="#SearchFiltersTests/0.0.1536.824@0.0.1536.824" timestamp="1587057057007" />
-    <state x="447" y="12" key="#TaskTabTest" timestamp="1587271976503">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="0" width="655" height="824" key="#TaskTabTest.test1" timestamp="1587271965912">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="0" width="655" height="824" key="#TaskTabTest.test1/0.0.1536.824@0.0.1536.824" timestamp="1587271965912" />
-    <state x="447" y="0" width="655" height="824" key="#TaskTabTest.test2" timestamp="1587273177853">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="0" width="655" height="824" key="#TaskTabTest.test2/0.0.1536.824@0.0.1536.824" timestamp="1587273177853" />
-    <state x="447" y="12" key="#TaskTabTest/0.0.1536.824@0.0.1536.824" timestamp="1587271976503" />
     <state x="456" y="12" key="#UploadIcon" timestamp="1587056317511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="456" y="12" key="#UploadIcon/0.0.1536.824@0.0.1536.824" timestamp="1587056317511" />
-    <state x="456" y="12" key="#VisualEditor" timestamp="1587274233673">
+    <state x="456" y="12" key="#VisualEditor" timestamp="1587056830534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="0" width="655" height="824" key="#VisualEditor.VisualEditor" timestamp="1587274148092">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="0" width="655" height="824" key="#VisualEditor.VisualEditor/0.0.1536.824@0.0.1536.824" timestamp="1587274148092" />
-    <state x="456" y="12" key="#VisualEditor/0.0.1536.824@0.0.1536.824" timestamp="1587274233673" />
-    <state x="447" y="12" key="#charos_tests" timestamp="1587261383834">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="12" key="#charos_tests/0.0.1536.824@0.0.1536.824" timestamp="1587261383834" />
+    <state x="456" y="12" key="#VisualEditor/0.0.1536.824@0.0.1536.824" timestamp="1587056830534" />
     <state x="573" y="329" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587144776080">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -297,22 +272,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586562961448" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587274988146">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587274988146" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587274988145">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587274988145" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587274988145">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587274988145" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587274988145">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1587073620047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587274988145" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1587056760222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -330,5 +305,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1587056589917" />
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup" timestamp="1587151315566">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="431" y="147" width="672" height="678" key="search.everywhere.popup/0.0.1536.826@0.0.1536.826" timestamp="1587151315566" />
   </component>
 </project>

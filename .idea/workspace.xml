@@ -29,30 +29,51 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\15713\Desktop\VA_Group1_Btrix24\src\test\resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.Bitrix24xDownloadTest.download">
-    <configuration name="Bitrix24UploadTest.BitrixUPLOADtest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SearchFiltersTests.filtersTest">
+    <configuration name="AddUserEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <shortenClasspath name="NONE" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.btrix24.tests.Ozzy_Test.*" />
+          <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.Ozzy_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.Ozzy_Test.Bitrix24UploadTest" />
-      <option name="METHOD_NAME" value="BitrixUPLOADtest" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddUserEmail.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VA_Group1_Btrix24" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -67,19 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bitrix24xDownloadTest.download" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserEmail.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
-      <shortenClasspath name="NONE" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.btrix24.tests.Ozzy_Test.*" />
+          <option name="PATTERN" value="com.btrix24.tests.akif_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.Ozzy_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.Ozzy_Test.Bitrix24xDownloadTest" />
-      <option name="METHOD_NAME" value="download" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.akif_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.akif_tests.AddUserEmail" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -94,48 +115,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitrixUpLoadTest.BitrixUPLOADtest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RecordVideoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VA_Group1_Btrix24" />
       <shortenClasspath name="NONE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.btrix24.tests.Ozzy_Test.*" />
+          <option name="PATTERN" value="com.btrix24.tests.test_MSH_AC_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.Ozzy_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.Ozzy_Test.BitrixUpLoadTest" />
-      <option name="METHOD_NAME" value="BitrixUPLOADtest" />
+      <option name="PACKAGE_NAME" value="com.btrix24.tests.test_MSH_AC_9" />
+      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.test_MSH_AC_9.RecordVideoTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BitrixUpLoadTest.Testing" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="VA_Group1_Btrix24" />
-      <shortenClasspath name="NONE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.btrix24.tests.Ozzy_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.btrix24.tests.Ozzy_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.btrix24.tests.Ozzy_Test.BitrixUpLoadTest" />
-      <option name="METHOD_NAME" value="Testing" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -195,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Bitrix24xDownloadTest.download" />
-        <item itemvalue="TestNG.Bitrix24UploadTest.BitrixUPLOADtest" />
-        <item itemvalue="TestNG.BitrixUpLoadTest.BitrixUPLOADtest" />
-        <item itemvalue="TestNG.BitrixUpLoadTest.Testing" />
         <item itemvalue="TestNG.SearchFiltersTests.filtersTest" />
+        <item itemvalue="TestNG.RecordVideoTest" />
+        <item itemvalue="TestNG.AddUserEmail" />
+        <item itemvalue="TestNG.AddUserEmail.test2" />
+        <item itemvalue="TestNG.AddUserEmail.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -241,11 +234,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1587056193238" />
-    <state x="1847" y="0" key="#Project_Structure" timestamp="1587162552446">
-      <screen x="1366" y="0" width="2048" height="1112" />
+    <state x="361" y="0" key="#Project_Structure" timestamp="1587056232348">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="321" y="51" key="#Project_Structure/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586652546061" />
-    <state x="1847" y="0" key="#Project_Structure/0.0.1366.728/1366.0.2048.1112@1366.0.2048.1112" timestamp="1587162552446" />
     <state x="361" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587056232348" />
     <state x="447" y="12" key="#RecordVideoTest" timestamp="1587057241224">
       <screen x="0" y="0" width="1536" height="824" />
@@ -280,29 +272,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586562961448" />
-    <state width="1991" height="368" key="GridCell.Tab.0.bottom" timestamp="1587253265249">
-      <screen x="1366" y="0" width="2048" height="1112" />
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1587073620047">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="131" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.2048.1112@0.0.1366.728" timestamp="1587243338308" />
-    <state width="1991" height="368" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.2048.1112@1366.0.2048.1112" timestamp="1587253265249" />
     <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
-    <state width="1991" height="368" key="GridCell.Tab.0.center" timestamp="1587253265249">
-      <screen x="1366" y="0" width="2048" height="1112" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1587073620047">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="131" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.2048.1112@0.0.1366.728" timestamp="1587243338308" />
-    <state width="1991" height="368" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.2048.1112@1366.0.2048.1112" timestamp="1587253265249" />
     <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
-    <state width="1991" height="368" key="GridCell.Tab.0.left" timestamp="1587253265249">
-      <screen x="1366" y="0" width="2048" height="1112" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1587073620047">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="131" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.2048.1112@0.0.1366.728" timestamp="1587243338308" />
-    <state width="1991" height="368" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.2048.1112@1366.0.2048.1112" timestamp="1587253265249" />
     <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
-    <state width="1991" height="368" key="GridCell.Tab.0.right" timestamp="1587253265249">
-      <screen x="1366" y="0" width="2048" height="1112" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1587073620047">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="131" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.2048.1112@0.0.1366.728" timestamp="1587243338308" />
-    <state width="1991" height="368" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.2048.1112@1366.0.2048.1112" timestamp="1587253265249" />
     <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587073620047" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1587056760222">
       <screen x="0" y="0" width="1536" height="824" />
